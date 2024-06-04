@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+/*Banner*/
+
+
+.banner-margin{
+    margin-top: 125px;
+}
+
+
+.banner{
+
+    background-image: linear-gradient(100deg, #000000, #00000020), url(/images/medi1.png);
+
+    height: 40rem;
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 6px;
+
+}
+
+
+
+.main-content{
+    background-color: #f9f5f0;
+}
+
+/*phrases*/
+
+.container-phrases{
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+    gap: 2rem;
+    padding: 3rem 0;
+    padding-top: 60px;
+   
+}
+
+.card-phrases{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem 0;
+    background-color: #fdc5fffd;
+    border-radius: 1rem;
+    padding: 1.5rem 0;
+}
+
+.card-phrases img{
+   width: 23px;
+   color: #e1b3ed;
+}
+
+.phrases-content{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.phrases-content span{
+    font-weight: 700;
+    font-size: 1.2rem;
+    color:#151515 ;
+  
+}
+
+
+.top-categories{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    
+}
+
+.container-categories{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    
+}
+
+.card-category{
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    gap: 2rem;
+    
+
+}
+
+.category-simbolo{
+    background-image: linear-gradient(#00000080, #00000080), url(images/simbolo.jpeg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+
+}
+
+
+
+.category-chakras{
+    background-image: linear-gradient(#00000080, #00000080), url(images/chakras.jpeg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+
+}
+
+
+.category-pineal{
+    background-image: linear-gradient(#00000080, #00000080), url(images/Pineal.jpeg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+
+
+}
+.card-category p{
+    color:#edcdf5;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+.card-category span a{
+    color: #afd5f6;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: capitalize;
+    text-decoration: none;
+   
+
+}
+
+.card-category span:hover{
+   transform: scale(1.2); 
+  
+   cursor: pointer;
+}
+
+.container-options{
+align-items: center;
+display: flex;
+justify-content: center;
+gap: 2rem;
+margin-bottom: 1rem;
+}
+
+.container-options span{
+   color: #777;
+   background-color: #fff;
+   padding: .7rem 3rem;
+   font-size: 1.4rem;
+   text-transform: capitalize;
+   border-radius: 2rem;
+   cursor: pointer;
+
+}
+
+.container-options span:hover{
+    background-color: #2874A6 ;
+    color: #fff;
+}
+
+.container-options span.active{
+    background-color: #2874A6 ;
+    color: #fff;
+}
+/*Motivacion*/
+
+.motivacion{
+   width: 100%;
+  
+}
+.content-motive{
+    display: flex;
+    background-color: #ffffffa3;
+    border-radius: 30px;
+    height: 300px;
+    margin: 50px;
+   
+}
+.motivacion p{
+    font-size: 15px;
+    padding: 90px;
+    
+
+}
+
+.content-motive img{
+    width: 30%;
+    padding: 30px;
+    border-radius: 30px;
+    background-size: cover;
+   
+}
+
+
+
+
+
+
+
+/*libros*/
+
+.bookstop-content{
+display: grid;
+grid-template-columns: repeat(auto-fill,minmax(20rem, 1fr));
+gap: 9rem ;
+padding: 70px 0;
+
+
+}
+
+.book-content{
+    position: relative;
+     cursor: pointer;   
+}
+
+.text-book {
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    
+
+}
+
+.text-book a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #3c2cd1;
+    font-weight: 600;
+}
+
+.text-book a:hover{
+    color: #032c47;
+}
+
+
+
+
+
+
+.stars{
+   display: flex;
+    justify-content: center;
+    font-size: 17px;
+ 
+    
+}
+
+.stars .fa-solid{
+    color: rgb(230, 65, 10);
+}
+.stars .fa-regular{
+color: #777;
+}
+
+
+
+
+.books-img{
+   
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+position: relative;
+
+
+}
+
+.books-img img{
+width: 70%;
+height: 220px;
+border-radius:  .1rem;
+box-shadow: 1px 4px .2px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+.coment{
+margin: 30px;
+position: relative;
+width: 85%;
+margin-left: 10%;
+background-color: #ffffff;
+border-radius: 20px;
+
+}
+
+.coment-content{
+padding: 20px;
+
+
+}
+
+.coment-txt {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    font-size: 26px;
+    display: flex;
+ margin-bottom: 20px;
+ 
+}
+
+.coment-content p{
+    font-size: 13px;
+    font-weight: 400;
+    padding: 20px;
+
+}
+
+
+
+  /* Media Queries-- 768px */
+  @media(max-width:768px){
+
+
+    html{
+        font-size: 40%;
+       
+    }
+    
+    .container{
+        margin-left:0;
+        margin-right: 0;
+       
+    }
+
+    
+  
+    .hero{
+       position: relative;
+        padding: .1rem;
+        margin-right: 200px;
+        margin-top: 10px;
+    }
+   
+    
+
+
+
+  
+    .container-logo{
+        color: #000;
+       
+       
+    }
+    
+    .menu{
+       margin-top: 20px;
+        padding: 10px;
+        font-size: 20px;
+        color: white;
+        justify-content:space-between;
+       
+      }
+      .menu label{
+          display: initial;
+      }
+      .menu .navbar{
+          position: absolute;
+          top: 100%;
+          left: 0;
+          right: 0;
+          background-color:#ae7eba;
+          display: none;
+          padding: 20px;
+          font-size: 20px;
+      }
+      .menu .navbar ul li {
+          width: 100%;
+          
+          
+      }
+      
+      
+      #menu:checked ~ .navbar {
+          display: initial;
+      }
+   
+
+
+
+
+
+  
+
+
+   
+    .content-banner{
+        max-width: 50rem;
+        margin: 0 auto;
+       padding: 25rem 0;
+       
+    }
+    .container-phrases{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2rem 3rem;
+      
+    }
+    
+    .card-phrases{
+        padding: 2rem;
+    }
+    .heading-1{
+        font-size: 3.4rem;
+    }
+    
+  
+    .content-motive{
+
+       flex-direction: column;
+        width: 100%;
+        margin: 0;
+        height: 600px;
+       
+
+    }
+    .content-motive h2{
+        font-size: 20px;
+    }
+    .content-motive p{
+        padding-bottom: 20px;
+        padding: 50px;
+    }
+    .content-motive img{
+        width: 50%;
+      margin-left: 100px;
+     
+    }
+    .card-category{
+        height: 300px;
+        padding: 30px;
+    }
+    
+    .card-category p{
+        font-size: 2rem;
+        text-align:center;
+        line-height: 1;
+    }
+    .card-category span{
+        font-size: 1.4rem;
+    }
+
+
+   
+    .bookstop-content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+         width:100%;
+        margin: 0;
+        padding-top: 20px;
+
+    }
+
+
+  }    
