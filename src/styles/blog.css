@@ -6,7 +6,7 @@
 }
 
 .banner{
-    background-image: linear-gradient(100deg, #000000, #00000020), url(images/medi1.png);
+    background-image: linear-gradient(100deg, #000000, #00000020), url(/espiritual.github.io/images/medi1.png);
     height: 80rem;
     background-size: cover;
     background-position: center;
@@ -194,7 +194,7 @@ color: #f7d9fe;
 }
 
 .category-simbolo{
-    background-image: linear-gradient(#00000080, #00000080), url(images/simbolo.jpeg);
+    background-image: linear-gradient(#00000080, #00000080), url(/espiritual.github.io/images/simbolo.jpeg);
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
@@ -206,7 +206,7 @@ background-repeat: no-repeat;
 
 
 .category-chakras{
-    background-image: linear-gradient(#00000080, #00000080), url(images/chakras.jpeg);
+    background-image: linear-gradient(#00000080, #00000080), url(/espiritual.github.io/images/chakras.jpeg);
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;

@@ -8,7 +8,7 @@
 }
 
 .banner{
-    background-image: linear-gradient(100deg, #000000, #00000020), url(images/exito-spir.jpeg);
+    background-image: linear-gradient(100deg, #000000, #00000020), url(/espiritual.github.io/images/exito-spir.jpeg);
     height: 80rem;
     background-size: cover;
     background-position: center;

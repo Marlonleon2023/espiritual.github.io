@@ -4,7 +4,7 @@
 
 
 .banner{
-    background-image: linear-gradient(100deg, #000000, #00000020), url(images/sueño-exito.webp);
+    background-image: linear-gradient(100deg, #000000, #00000020), url(/espiritual.github.io/images/sueño-exito.webp);
     height: 40rem;
     background-size: cover;
     background-position: top;
@@ -72,7 +72,7 @@ html {
 }
 
 .category-simbolo{
-    background-image: linear-gradient(#00000080, #00000080), url(images/simbolo.jpeg);
+    background-image: linear-gradient(#00000080, #00000080), url(/espiritual.github.io/images/simbolo.jpeg);
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
@@ -84,7 +84,7 @@ background-repeat: no-repeat;
 
 
 .category-chakras{
-    background-image: linear-gradient(#00000080, #00000080), url(images/chakras.jpeg);
+    background-image: linear-gradient(#00000080, #00000080), url(/espiritual.github.io/images/chakras.jpeg);
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
@@ -94,7 +94,7 @@ background-repeat: no-repeat;
 
 
 .category-pineal{
-    background-image: linear-gradient(#00000080, #00000080), url(images/Pineal.jpeg);
+    background-image: linear-gradient(#00000080, #00000080), url(/espiritual.github.io/images/Pineal.jpeg);
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
