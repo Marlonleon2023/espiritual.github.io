@@ -3,63 +3,31 @@
 /*Banner*/
 
 
-.banner{
-    background-image: linear-gradient(100deg, #000000, #00000020), url(/espiritual.github.io/images/sueño-exito.webp);
-    height: 40rem;
-    background-size: cover;
-    background-position: top;
-
-}
-
-.content-banner{
-    max-width: 90rem;
-    margin: 0 auto;
-    padding: 24rem 0;
-    text-transform: capitalize;
-}
-
-.content-banner p{
-    color: #e1b3ed;
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-    font-weight: 500;
-}
-
-.content-banner h2{
-    color: #fff;
-    font-size: 3.5rem;
-    font-weight: 500;
-    line-height: 1.2;
-
-   
-}
-
-
-.main-content{
-    background-color: #f9f5f0;
-}
+/* Estilos generales */
 html {
     background-color: #000;
     color: #fff;
 }
 
+.main-content {
+    background-color: #f9f5f0;
+}
 
-
-
-.top-categories{
+/* Categorías */
+.top-categories {
     display: flex;
     flex-direction: column;
     gap: 2rem;
     margin-bottom: 3rem;
 }
 
-.container-categories{
+.container-categories {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
 }
 
-.card-category{
+.card-category {
     height: 20rem;
     display: flex;
     flex-direction: column;
@@ -67,195 +35,135 @@ html {
     justify-content: center;
     border-radius: 1rem;
     gap: 2rem;
-  
-
+    transition: transform 0.3s ease;
 }
 
-.category-simbolo{
-    background-image: linear-gradient(#00000080, #00000080), url(/espiritual.github.io/images/simbolo.jpeg);
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-
-
-
-}
-
-
-
-.category-chakras{
-    background-image: linear-gradient(#00000080, #00000080), url(/espiritual.github.io/images/chakras.jpeg);
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-
-
-}
-
-
-.category-pineal{
-    background-image: linear-gradient(#00000080, #00000080), url(/espiritual.github.io/images/Pineal.jpeg);
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-
-
-
-}
-.card-category p{
-    color:#edcdf5;
+.card-category p {
+    color: #edcdf5;
     font-weight: 500;
     font-size: 18px;
 }
 
-
-.card-category span a{
+.card-category span a {
     color: #afd5f6;
     font-weight: 600;
     font-size: 13px;
     text-transform: capitalize;
     text-decoration: none;
-   
-
 }
 
-.card-category span:hover{
-   transform: scale(1.2); 
-  
-   cursor: pointer;
+.card-category span:hover {
+    transform: scale(1.05);
+    cursor: pointer;
 }
 
-.container-options{
-align-items: center;
-display: flex;
-justify-content: center;
-gap: 2rem;
-margin-bottom: 1rem;
+/* Opciones */
+.container-options {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
 }
 
-.container-options span{
-   color: #777;
-   background-color: #fff;
-   padding: .7rem 3rem;
-   font-size: 1.4rem;
-   text-transform: capitalize;
-   border-radius: 2rem;
-   cursor: pointer;
-
+.container-options span {
+    color: #777;
+    background-color: #fff;
+    padding: .7rem 3rem;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.container-options span:hover{
-    background-color: #2874A6 ;
+.container-options span:hover,
+.container-options span.active {
+    background-color: #2874A6;
     color: #fff;
 }
 
-.container-options span.active{
-    background-color: #2874A6 ;
-    color: #fff;
+/* Motivación */
+.motivacion {
+    margin-top: 40px;
+    width: 100%;
+    margin-bottom: 20px;
 }
-/*Motivacion*/
 
-.motivacion{
-    
-   margin-top: 40px;
-   width: 100%;
-   margin-bottom: 20px;
-   
-  
-}
-.motivacion span{
+.motivacion span {
     display: flex;
     text-align: center;
     align-items: center;
     margin-left: 50px;
     color: #dd9cee;
     font-size: 20px;
-    
 }
 
-
-
-.content-motive{
+.content-motive {
     display: flex;
-    
     border-radius: 5px;
-   height: 300px;
-   color: #fff;
+    height: 300px;
+    color: #fff;
 }
-.motivacion p{
-   color: #edcdf5;
-   
+
+.motivacion p {
+    color: #edcdf5;
     font-size: 15px;
     padding: 90px;
-
 }
 
-.content-motive img{
+.content-motive img {
     width: 30%;
     padding: 30px;
     border-radius: 30px;
     background-size: cover;
-   
 }
 
-/*Biografia suño lucido*/
-
-.my-experience{
-   
-   
+/* Experiencia */
+.my-experience {
     display: flex;
-  margin: 30px;
-  padding-top: 50px;
-   width: 80%;
-   margin-bottom: 20px;
-   height: 900px;
+    margin: 30px;
+    padding-top: 50px;
+    width: 80%;
+    margin-bottom: 20px;
+    height: 900px;
 }
 
-.experience-txt{
+.experience-txt {
     font-size: 2rem;
 }
 
-.content-my-experience{
+.content-my-experience {
     display: flex;
     height: 300px;
     color: #fff;
     flex-direction: column;
 }
 
-.content-my-experience p{
-    
+.content-my-experience p {
     font-size: 15px;
     padding: 40px;
-    color:#f3def8 ;
+    color: #f3def8;
 }
 
-.esperience-img{
+.esperience-img {
     background-color: rgba(253, 217, 253, 0.817);
     padding: 10px;
     border-radius: 50%;
     width: 70%;
     height: 300px;
-    
     margin-top: 200px;
-   
 }
 
-
-
-
-/*phrases*/
-
-.container-phrases{
-  
+/* Frases */
+.container-phrases {
     display: grid;
-    grid-template-columns: repeat(4, 4fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
     padding: 3rem 0;
-   
 }
 
-.card-phrases{
-   
+.card-phrases {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -265,376 +173,55 @@ margin-bottom: 1rem;
     padding: 1.5rem 0;
 }
 
-.card-phrases img{
-   width: 23px;
-   color: #eaaafa;
+.card-phrases img {
+    width: 23px;
+    color: #eaaafa;
 }
 
-.phrases-content{
+.phrases-content {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
 }
-.phrases-content span{
+
+.phrases-content span {
     font-weight: 700;
     font-size: 1.2rem;
-    color:#151515 ;
-  
+    color: #151515;
 }
 
-
-
-.container-question{
-   margin-bottom: 30px;
+/* Preguntas */
+.container-question {
+    margin-bottom: 30px;
     display: flex;
     background-color: #fcfdfe;
-   border-radius: 8px;
+    border-radius: 8px;
 }
 
-
-.content-question h2{
-  color: rgb(251, 180, 48);  
-  text-align: center;
-  align-items: center;
-  font-weight: 600;
-  font-size: 20px;
-  padding-top: 30px;
+.content-question h2 {
+    color: rgb(251, 180, 48);
+    text-align: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 30px;
 }
 
-.lucido-img{
+.lucido-img {
     float: left;
     border-radius: 8px;
     width: 40%;
-   margin: 50px;
-   margin-right: 100px;
+    margin: 50px;
+    margin-right: 100px;
 }
-.list-lucid{
-   
+
+.list-lucid {
     margin-top: 50px;
     font-size: 15px;
-    color:rgb(26, 25, 25) ;
-    
-    
-   
+    color: rgb(26, 25, 25);
 }
 
-.lucid-order{
+.lucid-order {
     padding: 25px;
     font-weight: 600;
-    
 }
-
-
-
-
-footer{
-    
-    margin-top: 0px;
-}
-
-.footer{
-    background-color: #e1b3ed;
-    padding: 30px 0;
-    padding-bottom: 10px;
-}
-
-.footer-row{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.footer-links{
-    width: 25%;
-    padding: 0 15px;
-}
-
-.footer-links h4{
-    font-size: 20px;
-    color: #fff;
-    margin-bottom: 25px;
-    font-weight: 500;
-    border-bottom: 2px solid #ae7eba;
-    padding-bottom: 10px;
-    display: inline-block;
-}
-
-.footer-links ul{
-    padding-left: 0px;
-    text-decoration: none;
-    list-style: none;
-}
-
-.footer-links ul li a{
-    font-size: 17px;
-    text-decoration: none;
-    color: #000;
-    display: block;
-    margin-bottom: 15px;
-    transition: all .3s ease;
-}
-
-.footer-links ul li a:hover{
-    color: #fff;
-    padding-left: 6px;
-}
-
-
-.social-link a{
-    display: inline-block;
-    min-height: 40px;
-    width: 40px;
-    background-color: #ae7eba;
-    margin: 0 10px 10px 0;
-    text-align: center;
-    
-    line-height: 40px;
-    border-radius: 50%;
-    color: #151515;
-    transition: all .5s ease;
-}
-.social-link a:hover{
-    background-color: #f9f5f0;
-}
-
-.content p{
-    font-size: 1.4rem;
-    color: #fff;
-    font-weight: 300;
-}
-
-.newsletter    .title-footer {
-    font-size: 2.0rem;
-    font-weight: 500;
-}
-
-.content input{
-    outline: none;
-    background: none;
-    border: none;
-    border-bottom: 2px solid #ffffff;
-    cursor: pointer;
-    padding: 0.5rem 0 1.2rem;
-    color: #151515;
-    display: block;
-    margin-bottom: 3rem;
-    margin-top: 2rem;
-    width: 100%;
-    font-family: inherit;
-
-}
-
-.content input::-webkit-input-placeholder{
-    color: #eee;
-}
-
-.content button{
-    border: none;
-    background-color: #000;
-    color: #fff;
-    text-transform: uppercase;
-    padding: 1rem 2rem;
-    border-radius: 2rem;
-    font-size: 1.4rem;
-    font-family: inherit;
-    cursor: pointer;
-    font-weight: 600;
-    margin-bottom: 1rem;
-}
-
-.content button:hover{
-    background-color: #f9f5f0;
-    color: #000;
-}
-
-.copyright p{
-    font-weight: 400;
-    font-size: 1.0rem;
-}
-
-  /* Media Queries-- 768px */
-  @media(max-width:768px){
-
-
-    html{
-        font-size: 40%;
-    }
-    
-    .container{
-        margin-left:0;
-        margin-right: 0;
-    }
-    
-    .hero{
-        position: relative;
-         padding: .1rem;
-         margin-right: 200px;
-         margin-top: 10px;
-     }
-    
-    .customer-support{
-        display: none;
-    }
-    .content-shopping-cart{
-        display: none;
-    
-    }
-
-    .container-user{
-        display: none;
-    }
-    
-    .menu{
-        margin-top: 20px;
-         padding: 10px;
-         font-size: 20px;
-         color: white;
-         justify-content:space-between;
-        
-       }
-       .menu label{
-           display: initial;
-       }
-       .menu .navbar{
-           position: absolute;
-           top: 100%;
-           left: 0;
-           right: 0;
-           background-color:#ae7eba;
-           display: none;
-           padding: 20px;
-           font-size: 20px;
-       }
-       .menu .navbar ul li {
-           width: 100%;
-           
-           
-       }
-       
-       
-       #menu:checked ~ .navbar {
-           display: initial;
-       }
-    
- 
- 
-    .content-banner{
-        max-width: 50rem;
-        margin: 0 auto;
-       padding: 25rem 0;
-    }
-
-    .content-motive{
-
-        flex-direction: column;
-         width: 100%;
-         margin: 0;
-         height: 600px;
-        
- 
-     }
-   
-     .content-motive p{
-         padding-bottom: 20px;
-         padding: 30px;
-         margin-top: 20px;
-     }
-     .content-motive img{
-         width: 50%;
-       margin-left: 100px;
-       
-      
-     }
-     /*EXPERIENCIA */
-     .my-experience{
-        
-        flex-direction: column;
-        height: 1800px;
-        margin: 0;
-        padding-top: 10px;
-     }
-
-     .content-my-experience p{
-      padding: 10px;
-      margin: 0;
-     
-     
-     }
-     .content-my-experience span{
-margin: 10px;
-font-size: 12px;
-
-     }
-
-
-
-     .experience-txt {
-       margin: 10px;
-       
-
-     }
-
-     .esperience-img{
-          margin-top: 1150px;
-          width: 100%;
-          
-     }
-
-     /*prases*/
-
-     .container-phrases{
-        grid-template-columns: repeat(2, 1fr);
-        padding: 2rem 3rem;
-      
-    }
-    
-    .card-phrases{
-        padding: 2rem;
-    }
-    .heading-1{
-        font-size: 3.4rem;
-    }
-
-
-
-    .content-question h2{
-    font-size: 22px;
-    margin-right: 30px;
-    }
-    .lucido-img{
-        width: 300px;
-    }
-
-    .list-lucid{
-        display: flex;
-        flex-direction: column;
-        padding-right: 100px;
-        padding-left: 30px;
-    }
-
-
-    .footer-row{
-        text-align: center;
-    
-    }
-    
-    .footer-links{
-        width: 100%;
-        margin-bottom: 30px;
-    
-    }
-    .newsletter{
-        font-size: 4rem;
-        font-weight: 500;
-    }
-    
-    .newsletter p{
-        font-size: 2.5rem;
-    }
-    
-    .newsletter .content button{
-        font-size: 3rem;
-    }
-    
-    
-
-  }    

@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar.astro";
 import Layout from "../layouts/Layout.astro";
 import "../styles/style.css";
 import Footer from "../components/Footer.astro";
+import Card from "../components/Card.astro";
 ---
 
 <Layout title="Crecimiento espiritual.">
@@ -171,11 +172,45 @@ import Footer from "../components/Footer.astro";
           </div>
         </section>
       </section>
-      <Footer />
+   
+      <section class="tamaño-card">
+        <h2 class="blog2">Blogs</h2>
+      <ul role="list" class="link-card-grid"> 
+        <Card 
+          href="/espiritual.github.io/sueños-lucidos"
+          title="Sueños Lucidos"
+          body="Viaja a tus sueños y descubre tu poder"
+        />
+        <Card
+          href="#"
+          title="Viajes Astrales"
+          body="Supercharge your project with new frameworks and libraries."
+        />
+        <Card
+          href="#"
+          title="Proximamente"
+          body="Explore a galaxy of community-built starter themes."
+        />
+        <Card
+          href="#"
+          title="Community"
+          body="Proximamente"
+        />
+        <ul role="list" class="link-card-grid">
+          <Card
+            href="#"
+            title="Dercagar "
+            body="Proximamente."
+        />
+      </ul>
     </section>
+    </section>
+      <Footer />
+    </main>
+  </Layout>
+    
 
     <script
       src="https://kit.fontawesome.com/72c31be9da.js"
       crossorigin="anonymous"></script>
-  </main></Layout
->
+
