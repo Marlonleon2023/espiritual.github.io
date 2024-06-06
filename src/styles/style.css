@@ -201,269 +201,112 @@ margin-bottom: 1rem;
    
 }
 
+/*  section personal    */
 
-
-
-
-
-
-/*libros*/
-
-.bookstop-content{
-display: grid;
-grid-template-columns: repeat(auto-fill,minmax(20rem, 1fr));
-gap: 9rem ;
-padding: 70px 0;
-
-
+.crecimiento-espiritual{
+    padding-top: 100px;
+    padding-left: 150px ;
+    padding-bottom: 50px;
 }
 
-.book-content{
-    position: relative;
-     cursor: pointer;   
-}
-
-.text-book {
-    display: flex;
-    flex-direction: column;
-    text-transform: capitalize;
+.crecimimiento-h{
+    font-size: 20px;
+    color: #a928ff;
+    text-shadow: rgb(252, 64, 236) 1px 0 10px;
+    margin-left: 400px;
     
-
 }
 
-.text-book a{
+.crecimiento-p{
     font-size: 15px;
-    text-decoration: none;
-    color: #3c2cd1;
-    font-weight: 600;
-}
-
-.text-book a:hover{
-    color: #032c47;
-}
-
-
-
-
-
-
-.stars{
-   display: flex;
-    justify-content: center;
-    font-size: 17px;
- 
-    
-}
-
-.stars .fa-solid{
-    color: rgb(230, 65, 10);
-}
-.stars .fa-regular{
-color: #777;
-}
-
-
-
-
-.books-img{
+    width: 1000px;
+    padding-top: 30px;
+    line-height: 26px;
+    font-weight: 300;
+    padding-left: 90px;
    
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-position: relative;
-
-
+   
 }
 
-.books-img img{
-width: 70%;
-height: 220px;
-border-radius:  .1rem;
-box-shadow: 1px 4px .2px rgba(0, 0, 0, 0.1);
+.crecimiento-v{
+   
+    font-size: 15px;
 }
 
-
-
-
-
-
-.coment{
-margin: 30px;
-position: relative;
-width: 85%;
-margin-left: 10%;
-background-color: #ffffff;
-border-radius: 20px;
-
-}
-
-.coment-content{
-padding: 20px;
-
-
-}
-
-.coment-txt {
-    position: relative;
-    text-align: center;
-    justify-content: center;
-    font-size: 26px;
-    display: flex;
- margin-bottom: 20px;
- 
-}
-
-.coment-content p{
-    font-size: 13px;
-    font-weight: 400;
+.lista-mov{
+   margin-top: 50px;
+    margin-left: 70px;
+    width: 800px;
+    list-style: none;
     padding: 20px;
+    border-radius: 10px;
+}
+.text-22{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    
+}
 
+
+/*  section personal    */
+.desarrollo-personal{
+
+    width: 1000px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+   
+}
+
+.crecimimiento-h1{
+    padding-left: 300px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    text-shadow: rgb(252, 64, 236) 1px 0 10px;
+}
+.crecimiento-mm{
+    font-size: 15px;
+    line-height: 20px;
+    width: 900px;
+}
+
+.card-move{
+    width: 1000px;
+    padding-left: 10px;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.main-card{
+border: 1px solid #242323;
+background-color: #fff5fc;
+border-radius: 5px;
+padding: 20px;
+margin: 10px;
+width: 400px;
+display: inline-block;
+}
+
+.card-move :hover{
+    cursor: pointer;
+
+    background-color: #171616;
+    color: #eceaea;
+}
+.main-card h3{
+    color: #fa932c;
+    padding-bottom: 10px;
+}
+
+.main-card p{
+    padding-top: 20px;
+    line-height: 20px;
 }
 
 
 
-  /* Media Queries-- 768px */
-  @media(max-width:768px){
-
-
-    html{
-        font-size: 40%;
-       
-    }
-    
-    .container{
-        margin-left:0;
-        margin-right: 0;
-       
-    }
-
-    
-  
-    .hero{
-       position: relative;
-        padding: .1rem;
-        margin-right: 200px;
-        margin-top: 10px;
-    }
-   
-    
 
 
 
-  
-    .container-logo{
-        color: #000;
-       
-       
-    }
-    
-    .menu{
-       margin-top: 20px;
-        padding: 10px;
-        font-size: 20px;
-        color: white;
-        justify-content:space-between;
-       
-      }
-      .menu label{
-          display: initial;
-      }
-      .menu .navbar{
-          position: absolute;
-          top: 100%;
-          left: 0;
-          right: 0;
-          background-color:#ae7eba;
-          display: none;
-          padding: 20px;
-          font-size: 20px;
-      }
-      .menu .navbar ul li {
-          width: 100%;
-          
-          
-      }
-      
-      
-      #menu:checked ~ .navbar {
-          display: initial;
-      }
-   
-
-
-
-
-
-  
-
-
-   
-    .content-banner{
-        max-width: 50rem;
-        margin: 0 auto;
-       padding: 25rem 0;
-       
-    }
-    .container-phrases{
-        grid-template-columns: repeat(2, 1fr);
-        padding: 2rem 3rem;
-      
-    }
-    
-    .card-phrases{
-        padding: 2rem;
-    }
-    .heading-1{
-        font-size: 3.4rem;
-    }
-    
-  
-    .content-motive{
-
-       flex-direction: column;
-        width: 100%;
-        margin: 0;
-        height: 600px;
-       
-
-    }
-    .content-motive h2{
-        font-size: 20px;
-    }
-    .content-motive p{
-        padding-bottom: 20px;
-        padding: 50px;
-    }
-    .content-motive img{
-        width: 50%;
-      margin-left: 100px;
-     
-    }
-    .card-category{
-        height: 300px;
-        padding: 30px;
-    }
-    
-    .card-category p{
-        font-size: 2rem;
-        text-align:center;
-        line-height: 1;
-    }
-    .card-category span{
-        font-size: 1.4rem;
-    }
-
-
-   
-    .bookstop-content{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-         width:100%;
-        margin: 0;
-        padding-top: 20px;
-
-    }
-   
-
-
-  }    

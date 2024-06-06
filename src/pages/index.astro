@@ -1,183 +1,181 @@
 ---
-import Navbar from '../components/Navbar.astro';
-import Layout from '../layouts/Layout.astro';
+import Navbar from "../components/Navbar.astro";
+import Layout from "../layouts/Layout.astro";
 import "../styles/style.css";
-import Footer from '../components/Footer.astro';
-
+import Footer from "../components/Footer.astro";
 ---
 
-        <Layout title="Crecimiento espiritual.">
-            <main>
-                <header class="container-hero sticky-header">
-                    <h3 class="heading-2">
-                        vivimos en un eterno presente todo pasa y todo ocurre en el eterno
-                        ahora 
-                    </h3>
-                    <div class="container hero">
-                        <div class="container-logo">
-                            <img src="/espiritual.github.io/images/logo.png" />
-                            <h1 class="logo"><a href="/">Crecimiento Espiritual</a></h1>
-                        </div>
-                        <div class="container-user">
-                            <i class="fa-solid fa-user"></i>
-                        </div>
-                    </div>
-                    <!-- Utiliza el componente Navbar -->
-                    <Navbar />
-                </header>
-                <section class="banner banner-margin">
-                    <div class="content-banner">
-                        <p>La magia de la creación:</p>
-                        <h2>cómo manifestar tus sueños y deseos</h2>
-                    </div>
-                </section>
-        
-                <section class="main-content">
-                    <section class="container container-phrases">
-                        <div class="card-phrases">
-                            <img src="/espiritual.github.io/images/vec1-removebg-preview.png" alt="" />
-                            <div class="phrases-content">
-                                <span>La voz del alma</span>/*hhh  */
-                            </div>
-                        </div>
-                        <div class="card-phrases">
-                            <img src="/espiritual.github.io/images/vec2-removebg-preview.png" alt="" />
-                            <div class="phrases-content">
-                                <span>La sabiduría de la naturaleza</span>
-                            </div>
-                        </div>
-                        <div class="card-phrases">
-                            <img src="/espiritual.github.io/images/vec3-removebg-preview.png" alt="" />
-                            <div class="phrases-content">
-                                <span>El viaje del héroe</span>
-                            </div>
-                        </div>
-                        <div class="card-phrases">
-                            <img src="/espiritual.github.io/images/vec4-removebg-preview.png" alt="" />
-                            <div class="phrases-content">
-                                <span>El secreto de la felicidad</span>
-                            </div>
-                        </div>
-                    </section>
-        
-                    <article class="motivacion">
-                        <div class="content-motive">
-                            <h2 class="heading-3">Crecimiento Espiritual</h2>
-                            <p>
-                                Es un proceso de transformación interior que nos lleva a conectar
-                                con nuestra esencia, con nuestro propósito y con el sentido de la
-                                vida. No se trata de seguir una religión o una doctrina, sino de
-                                descubrir nuestra propia verdad y vivir desde ella. <br />
-                                El crecimiento espiritual implica un cambio de perspectiva, de pasar
-                                de una visión egocéntrica a una visión holística, donde nos
-                                reconocemos como parte de un todo mayor y nos relacionamos con los
-                                demás y con el mundo desde el amor, la compasión y la gratitud.
-                            </p>
-                            <img src="/espiritual.github.io/images/crecimiento.jpeg" alt="" />
-                        </div>
-                    </article>
-        
-                    <section class="section container top-categories">
-                        <h1 class="heading-1">Descubre Tu Potencial</h1>
-                        <div class="container-categories">
-                            <div class="card-category category-simbolo">
-                                <p>Geometría sagrada</p>
-                            </div>
-                            <div class="card-category category-chakras">
-                                <p>Chakras</p>
-                            </div>
-                            <div class="card-category category-pineal">
-                                <p>Glándula Pineal</p>
-                            </div>
-                        </div>
-                    </section>
-        
-                    <section class="bookstop container">
-                        <h2 class="heading-1">Libros Recomendados</h2>
-                        <div class="container-options">
-                            <span class="active">Destacados</span>
-                            <span>Nuevos</span>
-                            <span>Más Descargados</span>
-                        </div>
-                        <div class="bookstop-content">
-                            <div class="book-content">
-                                <div class="books-img">
-                                    <img src="images/libro1.jpg" alt="" />
-                                    <div class="text-book">
-                                        <a class="title-book" href="#">El poder del ahora</a>
-                                        <span>Autor: Eckhart Tolle</span>
-                                        <span>Espiritualidad</span>
-                                    </div>
-                                    <div class="stars">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-regular fa-star"></i>
-                                        <i class="fa-regular fa-star"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="book-content">
-                                <div class="books-img">
-                                    <img src="/espiritual.github.io/images/QUIEN-SOY portada libro.webp" alt="" />
-                                    <div class="text-book">
-                                        <a class="title-book" href="#">Quién soy yo</a>
-                                        <span>Autor: Jean Klein </span>
-                                        <span>Espiritualidad</span>
-                                    </div>
-                                    <div class="stars">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-regular fa-star"></i>
-                                        <i class="fa-regular fa-star"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="book-content">
-                                <div class="books-img">
-                                    <img src="/espiritual.github.io/images/libro33.jpg" alt="" />
-                                    <div class="text-book">
-                                        <a class="title-book" href="#">True Meditation</a>
-                                        <span>Autor: Adyashanti</span>
-                                        <span>Espiritualidad</span>
-                                    </div>
-                                    <div class="stars">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-regular fa-star"></i>
-                                        <i class="fa-regular fa-star"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="book-content">
-                                <div class="books-img">
-                                    <img src="/espiritual.github.io/images/sueñol.jpeg" alt="" />
-                                    <div class="text-book">
-                                        <a class="title-book" href="#">El Mundo de los Sueños Lúcidos</a>
-                                        <span>Autor: Stephen LaBerge </span>
-                                        <span>Espiritualidad</span>
-                                    </div>
-                                    <div class="stars">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-regular fa-star"></i>
-                                        <i class="fa-regular fa-star"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </section>
-            </main>
-            <Footer/>
-        </Layout>
+<Layout title="Crecimiento espiritual.">
+  <header class="container-hero sticky-header">
+    <h3 class="heading-2">
+      vivimos en un eterno presente todo pasa y todo ocurre en el eterno ahora
+    </h3>
+    <div class="container hero">
+      <div class="container-logo">
+        <img src="/espiritual.github.io/images/logo.png" />
+        <h1 class="logo"><a href="/">Crecimiento Espiritual</a></h1>
+      </div>
+      <div class="container-user">
+        <i class="fa-solid fa-user"></i>
+      </div>
+    </div>
+    <!-- Utiliza el componente Navbar -->
+    <Navbar />
+  </header>
+  <main class="pantalla">
+    <section class="banner banner-margin">
+      <div class="content-banner">
+        <p>La magia de la creación:</p>
+        <h2>cómo manifestar tus sueños y deseos</h2>
+      </div>
+    </section>
 
-        <script
-        src="https://kit.fontawesome.com/72c31be9da.js"
-        crossorigin="anonymous"
-        ></script>
+    <section class="main-content">
+      <section class="container container-phrases">
+        <div class="card-phrases">
+          <img
+            src="/espiritual.github.io/images/vec1-removebg-preview.png"
+            alt=""
+          />
+          <div class="phrases-content">
+            <span>La voz del alma</span>/*hhh */
+          </div>
+        </div>
+        <div class="card-phrases">
+          <img
+            src="/espiritual.github.io/images/vec2-removebg-preview.png"
+            alt=""
+          />
+          <div class="phrases-content">
+            <span>La sabiduría de la naturaleza</span>
+          </div>
+        </div>
+        <div class="card-phrases">
+          <img
+            src="/espiritual.github.io/images/vec3-removebg-preview.png"
+            alt=""
+          />
+          <div class="phrases-content">
+            <span>El viaje del héroe</span>
+          </div>
+        </div>
+        <div class="card-phrases">
+          <img
+            src="/espiritual.github.io/images/vec4-removebg-preview.png"
+            alt=""
+          />
+          <div class="phrases-content">
+            <span>El secreto de la felicidad</span>
+          </div>
+        </div>
+      </section>
 
+      <section class="section container top-categories">
+        <h1 class="heading-1">Descubriendo Tu Potencial</h1>
+        <div class="container-categories">
+          <div class="card-category category-simbolo">
+            <p>Geometría sagrada</p>
+          </div>
+          <div class="card-category category-chakras">
+            <p>Chakras</p>
+          </div>
+          <div class="card-category category-pineal">
+            <p>Glándula Pineal</p>
+          </div>
+        </div>
+      </section>
 
+      <section id="crecimmiento-espiritual" class="crecimiento-espiritual">
+        <h2 class="crecimimiento-h">Crecimiento Espiritual</h2>
+        <p class="crecimiento-p">
+          El crecimiento espiritual es un viaje personal hacia la comprensión
+          más profunda de uno mismo y del universo que nos rodea. Es un proceso
+          de expansión de la conciencia, donde buscamos trascender nuestras
+          limitaciones y conectar con lo divino dentro y fuera de nosotros. Aquí
+          te dejo algunos consejos para fomentar tu crecimiento espiritual:
+        </p>
+
+        <ul class="lista-mov">
+          <li class="text-22">Autoconocimiento</li>
+          <p class="crecimiento-v">
+            Dedica tiempo a explorar tus pensamientos, emociones y creencias. La
+            introspección te ayudará a comprender quién eres realmente y cuál es
+            tu propósito en la vida.
+          </p>
+
+          <li class="text-22">Meditacion</li>
+          <p class="crecimiento-v">
+            La práctica regular de la meditación te permite calmar la mente y
+            acceder a estados de conciencia más elevados. Te conecta con tu ser
+            interior y te ayuda a encontrar paz y claridad.
+          </p>
+
+          <li class="text-22">Gratitud</li>
+          <p class="crecimiento-v">
+            Cultiva una actitud de gratitud hacia la vida y todo lo que te
+            rodea. Reconoce las bendiciones que tienes y aprende a apreciar los
+            pequeños momentos de felicidad y amor.
+          </p>
+
+          <li class="text-22">Amor incondicional</li>
+          <p class="crecimiento-v">
+            Aprende a amarte a ti mismo y a los demás sin condiciones. El amor
+            es la fuerza más poderosa del universo y cultivarlo en todas tus
+            relaciones te acerca a la esencia divina que reside en cada ser
+            humano.
+
+            <li class="text-22">Conexion Con la naturaleza</li>
+            <p class="crecimiento-v">
+              Pasa tiempo al aire libre y conecta con la belleza y la armonía de
+              la naturaleza. Observa la perfección en cada planta, animal y
+              paisaje, y reconoce tu conexión intrínseca con todo lo que existe.
+            </p>
+          </p>
+        </ul>
+
+        <section id="desarrollo-personal" class="desarrollo-personal">
+          <h2 class="crecimimiento-h1">Desarrollo Personal</h2>
+          <p class="crecimiento-mm">
+            El desarrollo personal es un proceso continuo de autoexploración y
+            mejora que busca alcanzar una vida plena y satisfactoria. Aquí
+            tienes algunos aspectos clave para fomentar tu desarrollo personal:
+          </p>
+          <div class="card-move">
+            <div class="main-card">
+              <h3>Reflexión personal</h3>
+              <hr>
+              <p>
+                La reflexión personal es un pilar fundamental en mi viaje como
+                estudiante espiritual. Es un momento sagrado en el que me
+                sumerjo en las profundidades de mi ser, explorando mis
+                pensamientos, emociones y experiencias con una mente abierta y
+                un corazón receptivo.
+              </p>
+            </div>
+            <div class="main-card">
+              <h3>pensamientos y emociones</h3>
+              <hr>
+              <p>
+                En el sendero espiritual, la introspección se erige como un faro, iluminando los rincones más íntimos de mi ser. Es un acto de profunda conexión, donde navego entre las corrientes de mis pensamientos y emociones, buscando comprender mi verdad interior con humildad y aceptación
+            </div>
+            <div class="main-card">
+              <h3>Establecer Metas</h3>
+              <hr>
+              <p>En mi búsqueda espiritual, establecer metas es como trazar un mapa para mi viaje interior. Es un compromiso sagrado conmigo mismo, donde delineo los pasos que me llevarán más cerca de mi destino. Con cada meta que fijo, planto una semilla de intención en el jardín de mi alma, alimentándola con determinación y fe en el camino por venir.</p>
+            </div>
+            <div class="main-card">
+              <h3>Aprendizaje continuo</h3>
+              <hr>
+              <p>El aprendizaje continuo es el río que nutre mi camino espiritual. Es un compromiso constante con el crecimiento y la expansión de mi ser. Cada experiencia, cada encuentro, se convierte en una oportunidad para aprender y evolucionar, llevándome más cerca de la comprensión de mi verdadera naturaleza y del universo que me rodea."</p>
+            </div>
+          </div>
+        </section>
+      </section>
+      <Footer />
+    </section>
+
+    <script
+      src="https://kit.fontawesome.com/72c31be9da.js"
+      crossorigin="anonymous"></script>
+  </main></Layout
+>
